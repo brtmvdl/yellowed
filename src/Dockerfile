@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY app .
 
-RUN gradlew clean build --no-build-cache
+RUN ./gradlew clean build --no-build-cache
 
 # RUN ./gradlew assembleDebug --scan
 
