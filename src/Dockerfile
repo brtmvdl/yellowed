@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY app .
 
-CMD ls -la
+RUN ./gradlew build
+
+CMD ls -la ./app/build
