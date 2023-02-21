@@ -1,0 +1,5 @@
+# Yellowed
+
+## License
+
+[MIT](./LICENSE)
