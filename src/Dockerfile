@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY app .
 
-RUN echo "$( dirname $( which javac ) )"
+ENV JAVA_HOME /usr/local/openjdk-11/bin
 
 RUN sudo ./gradlew clean build --no-build-cache
 
